@@ -1,0 +1,10 @@
+{
+  "sourceSha256": "09e167f744d72fe4d35ad1b95cd19382848a78a81746ba3af313fc45a35f5b90",
+  "nativeSha256": "08d333164a6bb91069ead72465f3e3b032e590f3110b8c4602b1f677d29c8cad",
+  "bytes": 13397421,
+  "nodes": 99,
+  "primitives": 22,
+  "clips": 68,
+  "sampling": "original key timestamps, local TRS",
+  "sourceCapture": "20261009-044946-b8dbc43a"
+}

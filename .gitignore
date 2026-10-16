@@ -1,0 +1,8 @@
+/build/
+/vcpkg_installed/
+/CMakeUserPresets.json
+**/bin/
+**/obj/
+**/__pycache__/
+*.pyc
+/.vs/

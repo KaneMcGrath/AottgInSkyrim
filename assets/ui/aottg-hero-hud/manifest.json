@@ -1,0 +1,7973 @@
+{
+  "schema": "libaottg.hero-hud",
+  "version": 1,
+  "sources": [
+    {
+      "file": "resources.assets",
+      "sha256": "3a1aa8ca311bcedde26c0c167bc1d8005c3904c96d25a10787b05dfe33607508"
+    },
+    {
+      "file": "sharedassets0.assets",
+      "sha256": "abe09886af138d648b61f561e8c9d857bc546b43d5b6e1316338e52cefba2aa5"
+    },
+    {
+      "file": "RCAssets.unity3d",
+      "sha256": "a7ffabbf5f5e88babcb3d12259ce5e5da66a615008fbcb00fa770ff5eb0dfd77"
+    }
+  ],
+  "atlasTexturePathId": 32,
+  "atlasSize": [
+    2048,
+    2048
+  ],
+  "ancestors": [
+    {
+      "name": "PanelHUD",
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1178
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 2161
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2243
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2231
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2196
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2433
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2361
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2442
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2645
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2652
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2617
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2616
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2615
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2572
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 1904
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 1926
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 1943
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2576
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2479
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2415
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2660
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2488
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2640
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2642
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2648
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2647
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2641
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2657
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2691
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2659
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2658
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2184
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2406
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2255
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2568
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2291
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1178
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 401
+          },
+          "m_Name": "",
+          "showInPanelTool": 1,
+          "generateNormals": 0,
+          "depthPass": 0,
+          "widgetsAreStatic": 0,
+          "cullWhileDragging": 0,
+          "worldToLocal": {
+            "e00": 320.0,
+            "e01": 0.0,
+            "e02": 0.0,
+            "e03": 1.0,
+            "e10": 0.0,
+            "e11": 320.0,
+            "e12": 0.0,
+            "e13": -0.5,
+            "e20": 0.0,
+            "e21": 0.0,
+            "e22": 320.0,
+            "e23": 0.0,
+            "e30": 0.0,
+            "e31": 0.0,
+            "e32": 0.0,
+            "e33": 1.0
+          },
+          "mAlpha": 1.0,
+          "mDebugInfo": 1,
+          "mClipping": 0,
+          "mClipRange": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "mClipSoftness": {
+            "x": 40.0,
+            "y": 40.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anchor",
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1117
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1.0,
+          "y": 0.5,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 2149
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2352
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2679
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2666
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2705
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2388
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1117
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 439
+          },
+          "m_Name": "",
+          "uiCamera": {
+            "m_FileID": 0,
+            "m_PathID": 2799
+          },
+          "widgetContainer": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "panelContainer": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "side": 8,
+          "halfPixelOffset": 1,
+          "runOnlyOnce": 0,
+          "relativeOffset": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Camera",
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1214
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 2291
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2219
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1214
+          },
+          "m_Enabled": 1,
+          "m_ClearFlags": 4,
+          "m_BackGroundColor": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 1.0
+          },
+          "m_NormalizedViewPortRect": {
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1.0,
+            "height": 1.0
+          },
+          "near clip plane": -2.0,
+          "far clip plane": 2.0,
+          "field of view": 60.0,
+          "orthographic": true,
+          "orthographic size": 1.0,
+          "m_Depth": 0.0,
+          "m_CullingMask": {
+            "m_Bits": 32
+          },
+          "m_RenderingPath": -1,
+          "m_TargetTexture": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_TargetDisplay": 0,
+          "m_HDR": false,
+          "m_OcclusionCulling": true,
+          "m_StereoConvergence": 10.0,
+          "m_StereoSeparation": 0.02199999988079071
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1214
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 198
+          },
+          "m_Name": "",
+          "debug": 0,
+          "useMouse": 1,
+          "useTouch": 1,
+          "allowMultiTouch": 1,
+          "useKeyboard": 1,
+          "useController": 1,
+          "stickyPress": 1,
+          "eventReceiverMask": {
+            "m_Bits": 32
+          },
+          "clipRaycasts": 1,
+          "tooltipDelay": 1.0,
+          "stickyTooltip": 1,
+          "mouseDragThreshold": 4.0,
+          "mouseClickThreshold": 10.0,
+          "touchDragThreshold": 40.0,
+          "touchClickThreshold": 40.0,
+          "rangeDistance": -1.0,
+          "scrollAxisName": "Mouse ScrollWheel",
+          "verticalAxisName": "Vertical",
+          "horizontalAxisName": "Horizontal",
+          "submitKey0": 13,
+          "submitKey1": 330,
+          "cancelKey0": 27,
+          "cancelKey1": 331
+        }
+      ]
+    },
+    {
+      "name": "UI_IN_GAME",
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1045
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 0.0031250000465661287,
+          "y": 0.0031250000465661287,
+          "z": 0.0031250000465661287
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 2388
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1045
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 200
+          },
+          "m_Name": "",
+          "scalingStyle": 0,
+          "automatic": 0,
+          "manualHeight": 600,
+          "minimumHeight": 320,
+          "maximumHeight": 1536
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1045
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 172
+          },
+          "m_Name": "",
+          "panels": [
+            {
+              "m_FileID": 0,
+              "m_PathID": 1178
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1531
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1505
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 1492
+            },
+            {
+              "m_FileID": 0,
+              "m_PathID": 975
+            }
+          ]
+        },
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1045
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 401
+          },
+          "m_Name": "",
+          "showInPanelTool": 1,
+          "generateNormals": 0,
+          "depthPass": 0,
+          "widgetsAreStatic": 0,
+          "cullWhileDragging": 0,
+          "worldToLocal": {
+            "e00": 320.0,
+            "e01": 0.0,
+            "e02": 0.0,
+            "e03": 0.0,
+            "e10": 0.0,
+            "e11": 320.0,
+            "e12": 0.0,
+            "e13": 0.0,
+            "e20": 0.0,
+            "e21": 0.0,
+            "e22": 320.0,
+            "e23": 0.0,
+            "e30": 0.0,
+            "e31": 0.0,
+            "e32": 0.0,
+            "e33": 1.0
+          },
+          "mAlpha": 1.0,
+          "mDebugInfo": 1,
+          "mClipping": 0,
+          "mClipRange": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          },
+          "mClipSoftness": {
+            "x": 40.0,
+            "y": 40.0
+          }
+        }
+      ]
+    }
+  ],
+  "objects": {
+    "cross1": {
+      "pathId": 1069,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1069
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1703.0,
+          "y": 1190.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1069
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 5,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "cross",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "crossR2": {
+      "pathId": 1057,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1057
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1662.0,
+          "y": 1217.5,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 9.0,
+          "y": 15.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1057
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 5,
+          "mDepth": 0,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "cross2_a",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "cross2": {
+      "pathId": 1022,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1022
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1673.0,
+          "y": 1189.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1022
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 3,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "cross2",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "crossL1": {
+      "pathId": 1259,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1259
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1713.0,
+          "y": 1214.5,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": -9.0,
+          "y": 15.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1259
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 5,
+          "mDepth": 2,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "cross_a",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "crossR1": {
+      "pathId": 1187,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1187
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1695.0,
+          "y": 1213.5,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 9.0,
+          "y": 15.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1187
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 5,
+          "mDepth": 1,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "cross_a",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "crossL2": {
+      "pathId": 1268,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1268
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1691.0,
+          "y": 1216.5,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": -9.0,
+          "y": 15.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1268
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 5,
+          "mDepth": 0,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "cross2_a",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "skill_cd_sasha": {
+      "pathId": 730,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 730
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1738.0,
+          "y": 991.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 730
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 7,
+          "mDepth": 9,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_skill_sasha",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "skill_cd_petra": {
+      "pathId": 752,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 752
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1668.0,
+          "y": 992.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 752
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 7,
+          "mDepth": 9,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_skill_petra",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "skill_cd_mikasa": {
+      "pathId": 769,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 769
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1738.0003662109375,
+          "y": 1105.6175537109375,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 769
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 7,
+          "mDepth": 9,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_skill_mikasa",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "skill_cd_bottom": {
+      "pathId": 1402,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1402
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": -293.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1402
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 0.3529411852359772
+          },
+          "mPivot": 7,
+          "mDepth": -2,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_skill_fill_btm",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "skill_cd_levi": {
+      "pathId": 1305,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1305
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1738.0,
+          "y": 1071.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1305
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 7,
+          "mDepth": 8,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_skill_levi",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "GasUI": {
+      "pathId": 1241,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1241
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 0.0,
+          "y": -292.2646789550781,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "m_Children": [
+          {
+            "m_FileID": 0,
+            "m_PathID": 2334
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2451
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2470
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2208
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2325
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2303
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2173
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2267
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2424
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2370
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2693
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2619
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2397
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2279
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2343
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2314
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2635
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2618
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2634
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2633
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2632
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2631
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2630
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2629
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2628
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2627
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2626
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2624
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2622
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2621
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2620
+          },
+          {
+            "m_FileID": 0,
+            "m_PathID": 2692
+          }
+        ],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": []
+    },
+    "blader1": {
+      "pathId": 1160,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1160
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 34.5,
+          "y": 16.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": -7.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1160
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_blade",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "blader3": {
+      "pathId": 1277,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1277
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 48.0,
+          "y": 8.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 4.0,
+          "y": 16.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1277
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui2_2",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "blader4": {
+      "pathId": 1296,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1296
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 53.0,
+          "y": 8.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 4.0,
+          "y": 16.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1296
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui2_2",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "blader2": {
+      "pathId": 1034,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1034
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 43.0,
+          "y": 8.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 4.0,
+          "y": 16.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1034
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui2_2",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bladel1": {
+      "pathId": 1151,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1151
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -33.5,
+          "y": 16.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 7.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1151
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_blade",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bladel3": {
+      "pathId": 1129,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1129
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -48.0,
+          "y": 7.997100830078125,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": -4.0,
+          "y": 16.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1129
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui2_2",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bladel4": {
+      "pathId": 999,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 999
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -53.0,
+          "y": 7.997100830078125,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": -4.0,
+          "y": 16.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 999
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui2_2",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bladel2": {
+      "pathId": 1093,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1093
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -43.0,
+          "y": 7.997100830078125,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": -4.0,
+          "y": 16.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1093
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui2_2",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bladel5": {
+      "pathId": 1250,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1250
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -58.0,
+          "y": 7.997100830078125,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": -4.0,
+          "y": 16.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1250
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui2_2",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "blader5": {
+      "pathId": 1196,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1196
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 58.0,
+          "y": 8.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 4.0,
+          "y": 16.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1196
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 11,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui2_2",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "gasL": {
+      "pathId": 1519,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1519
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -23.0,
+          "y": 16.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 10.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1519
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 12,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "gasL1": {
+      "pathId": 1445,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1445
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -23.0,
+          "y": 15.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 8.0,
+          "y": 28.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1445
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 0.5921568870544434
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "gasR": {
+      "pathId": 1223,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1223
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 23.0,
+          "y": 16.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 10.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1223
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 12,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "gasR1": {
+      "pathId": 1105,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1105
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 23.0,
+          "y": 15.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 8.0,
+          "y": 28.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1105
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 0.5921568870544434
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bladeCL": {
+      "pathId": 1169,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1169
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -33.5,
+          "y": 18.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 24.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1169
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 0.5921568870544434
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_blade_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bladeCR": {
+      "pathId": 1140,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1140
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": 34.5,
+          "y": 18.0,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": -5.0,
+          "y": 24.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1140
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 0.5921568870544434
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_blade_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletR1": {
+      "pathId": 1461,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1461
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": 42.5,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851957440376282
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1461
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletL": {
+      "pathId": 1444,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1444
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": -4.371138828673793e-08
+        },
+        "m_LocalPosition": {
+          "x": -33.70000076293945,
+          "y": 13.899999618530273,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 8.000042915344238,
+          "y": 27.999980926513672,
+          "z": 0.999879002571106
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1444
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletR": {
+      "pathId": 1460,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1460
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": 34.29999923706055,
+          "y": 13.8100004196167,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 8.000042915344238,
+          "y": 27.999980926513672,
+          "z": 0.999879002571106
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1460
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletR2": {
+      "pathId": 1459,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1459
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": 49.0,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1459
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletR3": {
+      "pathId": 1458,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1458
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": 55.5,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1458
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletR4": {
+      "pathId": 1457,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1457
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": 61.79999923706055,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1457
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletR5": {
+      "pathId": 1456,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1456
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": 68.0999984741211,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1456
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletR6": {
+      "pathId": 1455,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1455
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": 74.5999984741211,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1455
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletR7": {
+      "pathId": 1454,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1454
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": 81.0,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1454
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletL1": {
+      "pathId": 1453,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1453
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": -42.099998474121094,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1453
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletL2": {
+      "pathId": 1452,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1452
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": -48.5,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1452
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletL3": {
+      "pathId": 1450,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1450
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": -55.0,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1450
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletL4": {
+      "pathId": 1448,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1448
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": -61.29999923706055,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1448
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletL5": {
+      "pathId": 1447,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1447
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": -67.5999984741211,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1447
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletL6": {
+      "pathId": 1446,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1446
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": -74.0999984741211,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1446
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "bulletL7": {
+      "pathId": 1518,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1518
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.0,
+          "w": 0.0
+        },
+        "m_LocalPosition": {
+          "x": -80.5999984741211,
+          "y": 9.699999809265137,
+          "z": -5.0
+        },
+        "m_LocalScale": {
+          "x": 5.0,
+          "y": 20.0,
+          "z": 0.6851199865341187
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2415
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1518
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 10,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_gas_can_fill",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 1,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "skill_cd_armin": {
+      "pathId": 1486,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1486
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1739.056640625,
+          "y": 1035.8758544921875,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1486
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 7,
+          "mDepth": 9,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_skill_armin",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "skill_cd_eren": {
+      "pathId": 1485,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1485
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1668.0,
+          "y": 1071.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1485
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 7,
+          "mDepth": 9,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_skill_eren",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "skill_cd_marco": {
+      "pathId": 1484,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1484
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1666.0,
+          "y": 1106.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1484
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 7,
+          "mDepth": 9,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_skill_marco",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "skill_cd_jean": {
+      "pathId": 1010,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1010
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1667.0,
+          "y": 1036.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32.0,
+          "y": 32.0,
+          "z": 1.0
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1010
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 7,
+          "mDepth": 9,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "ui_skill_jean",
+          "mFillCenter": 1,
+          "mType": 3,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "CrosshairText": {
+      "pathId": 1341,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1341
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -35.1478271484375,
+          "y": 4.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 14,
+          "y": 14,
+          "z": 1
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2568
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1341
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 503
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 1,
+          "mDepth": 0,
+          "mFont": {
+            "m_FileID": 2,
+            "m_PathID": 613
+          },
+          "mText": "13542",
+          "mMaxLineWidth": 0,
+          "mEncoding": 1,
+          "mMaxLineCount": 0,
+          "mPassword": 0,
+          "mShowLastChar": 0,
+          "mEffectStyle": 0,
+          "mEffectColor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "mSymbols": 1,
+          "mEffectDistance": {
+            "x": 1.0,
+            "y": 1.0
+          },
+          "mShrinkToFit": 0,
+          "mLineWidth": 0.0,
+          "mMultiline": 1
+        }
+      ]
+    },
+    "CursorSquare": {
+      "pathId": 1069,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1069
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1703.0,
+          "y": 1190.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32,
+          "y": 32,
+          "z": 1
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1069
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 5,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "CursorSquare",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "CursorTarget": {
+      "pathId": 1069,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1069
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1703.0,
+          "y": 1190.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32,
+          "y": 32,
+          "z": 1
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1069
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 5,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "CursorTarget",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "CursorDefault": {
+      "pathId": 1069,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1069
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1703.0,
+          "y": 1190.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32,
+          "y": 32,
+          "z": 1
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1069
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 5,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "CursorDefault",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "CursorPlus": {
+      "pathId": 1069,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1069
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1703.0,
+          "y": 1190.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32,
+          "y": 32,
+          "z": 1
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1069
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 5,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "CursorPlus",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    },
+    "CursorDot": {
+      "pathId": 1069,
+      "transform": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1069
+        },
+        "m_LocalRotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "m_LocalPosition": {
+          "x": -1703.0,
+          "y": 1190.0,
+          "z": 0.0
+        },
+        "m_LocalScale": {
+          "x": 32,
+          "y": 32,
+          "z": 1
+        },
+        "m_Children": [],
+        "m_Father": {
+          "m_FileID": 0,
+          "m_PathID": 2352
+        }
+      },
+      "components": [
+        {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 1069
+          },
+          "m_Enabled": 1,
+          "m_Script": {
+            "m_FileID": 2,
+            "m_PathID": 170
+          },
+          "m_Name": "",
+          "mMat": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mTex": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "mColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
+            "a": 1.0
+          },
+          "mPivot": 4,
+          "mDepth": 5,
+          "mAtlas": {
+            "m_FileID": 2,
+            "m_PathID": 616
+          },
+          "mSpriteName": "CursorDot",
+          "mFillCenter": 1,
+          "mType": 0,
+          "mFillDirection": 4,
+          "mFillAmount": 1.0,
+          "mInvert": 0
+        }
+      ]
+    }
+  },
+  "fonts": {
+    "613": {
+      "texture": "aottg_small_0.png",
+      "sha256": "235f5a1e1f72e43f8487fb0810bbfb39970c74110880de341b103b19c8172c5a",
+      "width": 128,
+      "height": 128,
+      "sourceSprite": {
+        "name": "aottg_small_0",
+        "outer": {
+          "x": 1811.0,
+          "y": 1587.0,
+          "width": 127.0,
+          "height": 65.0
+        },
+        "inner": {
+          "x": 1811.0,
+          "y": 1587.0,
+          "width": 127.0,
+          "height": 65.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.007874015718698502,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.9692307710647583
+      },
+      "size": 14,
+      "spacingX": 0,
+      "spacingY": 0,
+      "glyphs": [
+        {
+          "index": 32,
+          "x": 91,
+          "y": 57,
+          "width": 3,
+          "height": 1,
+          "offsetX": -1,
+          "offsetY": 13,
+          "advance": 4,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 33,
+          "x": 124,
+          "y": 21,
+          "width": 3,
+          "height": 9,
+          "offsetX": 1,
+          "offsetY": 3,
+          "advance": 5,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 34,
+          "x": 9,
+          "y": 62,
+          "width": 6,
+          "height": 3,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 6,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 35,
+          "x": 95,
+          "y": 11,
+          "width": 9,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 10,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 36,
+          "x": 9,
+          "y": 0,
+          "width": 8,
+          "height": 12,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 37,
+          "x": 24,
+          "y": 13,
+          "width": 13,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 13,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 38,
+          "x": 52,
+          "y": 13,
+          "width": 10,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 39,
+          "x": 16,
+          "y": 62,
+          "width": 3,
+          "height": 3,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 3,
+          "channel": 15,
+          "kerning": [
+            76,
+            -1
+          ]
+        },
+        {
+          "index": 40,
+          "x": 48,
+          "y": 0,
+          "width": 5,
+          "height": 12,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 5,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 41,
+          "x": 54,
+          "y": 0,
+          "width": 5,
+          "height": 12,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 5,
+          "channel": 15,
+          "kerning": [
+            102,
+            1
+          ]
+        },
+        {
+          "index": 42,
+          "x": 86,
+          "y": 51,
+          "width": 8,
+          "height": 5,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 43,
+          "x": 90,
+          "y": 42,
+          "width": 9,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 44,
+          "x": 111,
+          "y": 49,
+          "width": 4,
+          "height": 4,
+          "offsetX": 0,
+          "offsetY": 10,
+          "advance": 4,
+          "channel": 15,
+          "kerning": [
+            121,
+            -1,
+            118,
+            -1,
+            114,
+            -2,
+            102,
+            -1,
+            46,
+            -1,
+            89,
+            -2,
+            87,
+            -2,
+            86,
+            -2,
+            84,
+            -2,
+            70,
+            -2,
+            80,
+            -2
+          ]
+        },
+        {
+          "index": 45,
+          "x": 85,
+          "y": 59,
+          "width": 5,
+          "height": 1,
+          "offsetX": 0,
+          "offsetY": 8,
+          "advance": 5,
+          "channel": 15,
+          "kerning": [
+            107,
+            -1,
+            46,
+            -1,
+            89,
+            -1,
+            84,
+            -1,
+            82,
+            -1,
+            76,
+            -1,
+            75,
+            -1
+          ]
+        },
+        {
+          "index": 46,
+          "x": 63,
+          "y": 61,
+          "width": 3,
+          "height": 2,
+          "offsetX": 1,
+          "offsetY": 10,
+          "advance": 4,
+          "channel": 15,
+          "kerning": [
+            121,
+            -1,
+            118,
+            -1,
+            114,
+            -2,
+            102,
+            -1,
+            89,
+            -2,
+            87,
+            -1,
+            86,
+            -2,
+            84,
+            -2,
+            80,
+            -2,
+            70,
+            -2
+          ]
+        },
+        {
+          "index": 47,
+          "x": 27,
+          "y": 0,
+          "width": 7,
+          "height": 12,
+          "offsetX": -1,
+          "offsetY": 2,
+          "advance": 5,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 48,
+          "x": 79,
+          "y": 23,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 49,
+          "x": 25,
+          "y": 44,
+          "width": 7,
+          "height": 9,
+          "offsetX": 1,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 50,
+          "x": 88,
+          "y": 22,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 51,
+          "x": 97,
+          "y": 21,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 52,
+          "x": 45,
+          "y": 33,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 53,
+          "x": 106,
+          "y": 21,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 54,
+          "x": 115,
+          "y": 21,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 55,
+          "x": 0,
+          "y": 34,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 56,
+          "x": 9,
+          "y": 34,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 57,
+          "x": 18,
+          "y": 34,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 58,
+          "x": 82,
+          "y": 51,
+          "width": 3,
+          "height": 7,
+          "offsetX": 1,
+          "offsetY": 5,
+          "advance": 5,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1,
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 59,
+          "x": 62,
+          "y": 43,
+          "width": 3,
+          "height": 9,
+          "offsetX": 1,
+          "offsetY": 5,
+          "advance": 5,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 60,
+          "x": 18,
+          "y": 54,
+          "width": 8,
+          "height": 7,
+          "offsetX": 1,
+          "offsetY": 5,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 61,
+          "x": 0,
+          "y": 62,
+          "width": 8,
+          "height": 3,
+          "offsetX": 1,
+          "offsetY": 6,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 62,
+          "x": 0,
+          "y": 54,
+          "width": 8,
+          "height": 7,
+          "offsetX": 1,
+          "offsetY": 5,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 63,
+          "x": 9,
+          "y": 44,
+          "width": 7,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 7,
+          "channel": 15,
+          "kerning": [
+            102,
+            1
+          ]
+        },
+        {
+          "index": 64,
+          "x": 86,
+          "y": 0,
+          "width": 12,
+          "height": 10,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 12,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 65,
+          "x": 50,
+          "y": 23,
+          "width": 9,
+          "height": 9,
+          "offsetX": -1,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            39,
+            -1,
+            84,
+            -1,
+            70,
+            -1
+          ]
+        },
+        {
+          "index": 66,
+          "x": 90,
+          "y": 32,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 67,
+          "x": 0,
+          "y": 24,
+          "width": 9,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 68,
+          "x": 85,
+          "y": 12,
+          "width": 9,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 69,
+          "x": 63,
+          "y": 33,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 70,
+          "x": 81,
+          "y": 33,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 7,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 71,
+          "x": 30,
+          "y": 23,
+          "width": 9,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 72,
+          "x": 40,
+          "y": 23,
+          "width": 9,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 73,
+          "x": 56,
+          "y": 43,
+          "width": 5,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 5,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 74,
+          "x": 49,
+          "y": 43,
+          "width": 6,
+          "height": 9,
+          "offsetX": -1,
+          "offsetY": 3,
+          "advance": 5,
+          "channel": 15,
+          "kerning": [
+            45,
+            -1,
+            76,
+            1
+          ]
+        },
+        {
+          "index": 75,
+          "x": 36,
+          "y": 33,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 76,
+          "x": 17,
+          "y": 44,
+          "width": 7,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 7,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 77,
+          "x": 74,
+          "y": 13,
+          "width": 10,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 10,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 78,
+          "x": 105,
+          "y": 11,
+          "width": 9,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 79,
+          "x": 63,
+          "y": 13,
+          "width": 10,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 10,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 80,
+          "x": 54,
+          "y": 33,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 81,
+          "x": 75,
+          "y": 0,
+          "width": 10,
+          "height": 11,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 10,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 82,
+          "x": 20,
+          "y": 24,
+          "width": 9,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 83,
+          "x": 72,
+          "y": 33,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 84,
+          "x": 10,
+          "y": 24,
+          "width": 9,
+          "height": 9,
+          "offsetX": -1,
+          "offsetY": 3,
+          "advance": 7,
+          "channel": 15,
+          "kerning": [
+            45,
+            -1,
+            101,
+            -1,
+            65,
+            -1,
+            76,
+            -1
+          ]
+        },
+        {
+          "index": 85,
+          "x": 60,
+          "y": 23,
+          "width": 9,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 9,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 86,
+          "x": 27,
+          "y": 34,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            76,
+            -1
+          ]
+        },
+        {
+          "index": 87,
+          "x": 38,
+          "y": 13,
+          "width": 13,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 13,
+          "channel": 15,
+          "kerning": [
+            76,
+            -1
+          ]
+        },
+        {
+          "index": 88,
+          "x": 117,
+          "y": 31,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 89,
+          "x": 115,
+          "y": 11,
+          "width": 9,
+          "height": 9,
+          "offsetX": -1,
+          "offsetY": 3,
+          "advance": 7,
+          "channel": 15,
+          "kerning": [
+            45,
+            -1,
+            76,
+            -1
+          ]
+        },
+        {
+          "index": 90,
+          "x": 70,
+          "y": 23,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 91,
+          "x": 66,
+          "y": 0,
+          "width": 4,
+          "height": 12,
+          "offsetX": 1,
+          "offsetY": 2,
+          "advance": 5,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 92,
+          "x": 35,
+          "y": 0,
+          "width": 6,
+          "height": 12,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 5,
+          "channel": 15,
+          "kerning": [
+            102,
+            1
+          ]
+        },
+        {
+          "index": 93,
+          "x": 60,
+          "y": 0,
+          "width": 5,
+          "height": 12,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 5,
+          "channel": 15,
+          "kerning": [
+            102,
+            1
+          ]
+        },
+        {
+          "index": 94,
+          "x": 95,
+          "y": 50,
+          "width": 8,
+          "height": 4,
+          "offsetX": 1,
+          "offsetY": 3,
+          "advance": 10,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 95,
+          "x": 67,
+          "y": 61,
+          "width": 10,
+          "height": 1,
+          "offsetX": -1,
+          "offsetY": 13,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 96,
+          "x": 53,
+          "y": 61,
+          "width": 4,
+          "height": 2,
+          "offsetX": 1,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 97,
+          "x": 100,
+          "y": 41,
+          "width": 8,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1,
+            87,
+            -1,
+            86,
+            -1,
+            84,
+            -1,
+            70,
+            -1
+          ]
+        },
+        {
+          "index": 98,
+          "x": 0,
+          "y": 13,
+          "width": 8,
+          "height": 10,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 99,
+          "x": 75,
+          "y": 51,
+          "width": 6,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 6,
+          "channel": 15,
+          "kerning": [
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 100,
+          "x": 117,
+          "y": 0,
+          "width": 8,
+          "height": 10,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1
+          ]
+        },
+        {
+          "index": 101,
+          "x": 118,
+          "y": 41,
+          "width": 8,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1,
+            87,
+            -1,
+            86,
+            -1,
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 102,
+          "x": 9,
+          "y": 13,
+          "width": 6,
+          "height": 10,
+          "offsetX": -1,
+          "offsetY": 2,
+          "advance": 4,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 103,
+          "x": 99,
+          "y": 31,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1,
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 104,
+          "x": 108,
+          "y": 0,
+          "width": 8,
+          "height": 10,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 105,
+          "x": 20,
+          "y": 13,
+          "width": 3,
+          "height": 10,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 3,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 106,
+          "x": 42,
+          "y": 0,
+          "width": 5,
+          "height": 12,
+          "offsetX": -1,
+          "offsetY": 2,
+          "advance": 4,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 107,
+          "x": 99,
+          "y": 0,
+          "width": 8,
+          "height": 10,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 7,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 108,
+          "x": 16,
+          "y": 13,
+          "width": 3,
+          "height": 10,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 3,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 109,
+          "x": 66,
+          "y": 43,
+          "width": 11,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 11,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1
+          ]
+        },
+        {
+          "index": 110,
+          "x": 109,
+          "y": 41,
+          "width": 8,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1
+          ]
+        },
+        {
+          "index": 111,
+          "x": 27,
+          "y": 54,
+          "width": 8,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1,
+            87,
+            -1,
+            86,
+            -1,
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 112,
+          "x": 0,
+          "y": 44,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1
+          ]
+        },
+        {
+          "index": 113,
+          "x": 108,
+          "y": 31,
+          "width": 8,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1
+          ]
+        },
+        {
+          "index": 114,
+          "x": 68,
+          "y": 51,
+          "width": 6,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 5,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1,
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 115,
+          "x": 36,
+          "y": 54,
+          "width": 7,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 7,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1,
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 116,
+          "x": 33,
+          "y": 44,
+          "width": 7,
+          "height": 9,
+          "offsetX": -1,
+          "offsetY": 3,
+          "advance": 5,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 117,
+          "x": 9,
+          "y": 54,
+          "width": 8,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1,
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 118,
+          "x": 44,
+          "y": 53,
+          "width": 7,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 7,
+          "channel": 15,
+          "kerning": [
+            89,
+            -1,
+            84,
+            -1,
+            76,
+            -1
+          ]
+        },
+        {
+          "index": 119,
+          "x": 78,
+          "y": 43,
+          "width": 11,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 11,
+          "channel": 15,
+          "kerning": [
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 120,
+          "x": 60,
+          "y": 53,
+          "width": 7,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 7,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 121,
+          "x": 41,
+          "y": 43,
+          "width": 7,
+          "height": 9,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 7,
+          "channel": 15,
+          "kerning": [
+            84,
+            -1,
+            76,
+            -1
+          ]
+        },
+        {
+          "index": 122,
+          "x": 52,
+          "y": 53,
+          "width": 7,
+          "height": 7,
+          "offsetX": 0,
+          "offsetY": 5,
+          "advance": 7,
+          "channel": 15,
+          "kerning": [
+            84,
+            -1
+          ]
+        },
+        {
+          "index": 123,
+          "x": 0,
+          "y": 0,
+          "width": 8,
+          "height": 12,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 124,
+          "x": 71,
+          "y": 0,
+          "width": 3,
+          "height": 12,
+          "offsetX": 1,
+          "offsetY": 2,
+          "advance": 5,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 125,
+          "x": 18,
+          "y": 0,
+          "width": 8,
+          "height": 12,
+          "offsetX": 0,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": [
+            102,
+            1
+          ]
+        },
+        {
+          "index": 126,
+          "x": 116,
+          "y": 49,
+          "width": 10,
+          "height": 3,
+          "offsetX": 0,
+          "offsetY": 7,
+          "advance": 10,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 710,
+          "x": 41,
+          "y": 62,
+          "width": 5,
+          "height": 2,
+          "offsetX": 1,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 711,
+          "x": 47,
+          "y": 61,
+          "width": 5,
+          "height": 2,
+          "offsetX": 1,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 713,
+          "x": 78,
+          "y": 59,
+          "width": 6,
+          "height": 1,
+          "offsetX": 1,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 728,
+          "x": 20,
+          "y": 62,
+          "width": 6,
+          "height": 2,
+          "offsetX": 1,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 729,
+          "x": 125,
+          "y": 11,
+          "width": 2,
+          "height": 1,
+          "offsetX": 3,
+          "offsetY": 3,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 730,
+          "x": 104,
+          "y": 49,
+          "width": 6,
+          "height": 4,
+          "offsetX": 1,
+          "offsetY": 0,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 731,
+          "x": 58,
+          "y": 61,
+          "width": 4,
+          "height": 2,
+          "offsetX": 2,
+          "offsetY": 12,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 732,
+          "x": 27,
+          "y": 62,
+          "width": 6,
+          "height": 2,
+          "offsetX": 1,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        },
+        {
+          "index": 733,
+          "x": 34,
+          "y": 62,
+          "width": 6,
+          "height": 2,
+          "offsetX": 1,
+          "offsetY": 2,
+          "advance": 8,
+          "channel": 15,
+          "kerning": []
+        }
+      ],
+      "source": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 568
+        },
+        "m_Enabled": 1,
+        "m_Script": {
+          "m_FileID": 0,
+          "m_PathID": 152
+        },
+        "m_Name": "",
+        "mMat": {
+          "m_FileID": 0,
+          "m_PathID": 10
+        },
+        "mUVRect": {
+          "x": 0.88427734375,
+          "y": 0.16259765625,
+          "width": 0.0625,
+          "height": 0.0625
+        },
+        "mFont": {
+          "mSize": 14,
+          "mBase": 12,
+          "mWidth": 128,
+          "mHeight": 128,
+          "mSpriteName": "aottg_small_0",
+          "mSaved": [
+            {
+              "index": 32,
+              "x": 91,
+              "y": 57,
+              "width": 3,
+              "height": 1,
+              "offsetX": -1,
+              "offsetY": 13,
+              "advance": 4,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 33,
+              "x": 124,
+              "y": 21,
+              "width": 3,
+              "height": 9,
+              "offsetX": 1,
+              "offsetY": 3,
+              "advance": 5,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 34,
+              "x": 9,
+              "y": 62,
+              "width": 6,
+              "height": 3,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 6,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 35,
+              "x": 95,
+              "y": 11,
+              "width": 9,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 10,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 36,
+              "x": 9,
+              "y": 0,
+              "width": 8,
+              "height": 12,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 37,
+              "x": 24,
+              "y": 13,
+              "width": 13,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 13,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 38,
+              "x": 52,
+              "y": 13,
+              "width": 10,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 39,
+              "x": 16,
+              "y": 62,
+              "width": 3,
+              "height": 3,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 3,
+              "channel": 15,
+              "kerning": [
+                76,
+                -1
+              ]
+            },
+            {
+              "index": 40,
+              "x": 48,
+              "y": 0,
+              "width": 5,
+              "height": 12,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 5,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 41,
+              "x": 54,
+              "y": 0,
+              "width": 5,
+              "height": 12,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 5,
+              "channel": 15,
+              "kerning": [
+                102,
+                1
+              ]
+            },
+            {
+              "index": 42,
+              "x": 86,
+              "y": 51,
+              "width": 8,
+              "height": 5,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 43,
+              "x": 90,
+              "y": 42,
+              "width": 9,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 44,
+              "x": 111,
+              "y": 49,
+              "width": 4,
+              "height": 4,
+              "offsetX": 0,
+              "offsetY": 10,
+              "advance": 4,
+              "channel": 15,
+              "kerning": [
+                121,
+                -1,
+                118,
+                -1,
+                114,
+                -2,
+                102,
+                -1,
+                46,
+                -1,
+                89,
+                -2,
+                87,
+                -2,
+                86,
+                -2,
+                84,
+                -2,
+                70,
+                -2,
+                80,
+                -2
+              ]
+            },
+            {
+              "index": 45,
+              "x": 85,
+              "y": 59,
+              "width": 5,
+              "height": 1,
+              "offsetX": 0,
+              "offsetY": 8,
+              "advance": 5,
+              "channel": 15,
+              "kerning": [
+                107,
+                -1,
+                46,
+                -1,
+                89,
+                -1,
+                84,
+                -1,
+                82,
+                -1,
+                76,
+                -1,
+                75,
+                -1
+              ]
+            },
+            {
+              "index": 46,
+              "x": 63,
+              "y": 61,
+              "width": 3,
+              "height": 2,
+              "offsetX": 1,
+              "offsetY": 10,
+              "advance": 4,
+              "channel": 15,
+              "kerning": [
+                121,
+                -1,
+                118,
+                -1,
+                114,
+                -2,
+                102,
+                -1,
+                89,
+                -2,
+                87,
+                -1,
+                86,
+                -2,
+                84,
+                -2,
+                80,
+                -2,
+                70,
+                -2
+              ]
+            },
+            {
+              "index": 47,
+              "x": 27,
+              "y": 0,
+              "width": 7,
+              "height": 12,
+              "offsetX": -1,
+              "offsetY": 2,
+              "advance": 5,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 48,
+              "x": 79,
+              "y": 23,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 49,
+              "x": 25,
+              "y": 44,
+              "width": 7,
+              "height": 9,
+              "offsetX": 1,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 50,
+              "x": 88,
+              "y": 22,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 51,
+              "x": 97,
+              "y": 21,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 52,
+              "x": 45,
+              "y": 33,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 53,
+              "x": 106,
+              "y": 21,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 54,
+              "x": 115,
+              "y": 21,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 55,
+              "x": 0,
+              "y": 34,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 56,
+              "x": 9,
+              "y": 34,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 57,
+              "x": 18,
+              "y": 34,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 58,
+              "x": 82,
+              "y": 51,
+              "width": 3,
+              "height": 7,
+              "offsetX": 1,
+              "offsetY": 5,
+              "advance": 5,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1,
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 59,
+              "x": 62,
+              "y": 43,
+              "width": 3,
+              "height": 9,
+              "offsetX": 1,
+              "offsetY": 5,
+              "advance": 5,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 60,
+              "x": 18,
+              "y": 54,
+              "width": 8,
+              "height": 7,
+              "offsetX": 1,
+              "offsetY": 5,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 61,
+              "x": 0,
+              "y": 62,
+              "width": 8,
+              "height": 3,
+              "offsetX": 1,
+              "offsetY": 6,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 62,
+              "x": 0,
+              "y": 54,
+              "width": 8,
+              "height": 7,
+              "offsetX": 1,
+              "offsetY": 5,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 63,
+              "x": 9,
+              "y": 44,
+              "width": 7,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 7,
+              "channel": 15,
+              "kerning": [
+                102,
+                1
+              ]
+            },
+            {
+              "index": 64,
+              "x": 86,
+              "y": 0,
+              "width": 12,
+              "height": 10,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 12,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 65,
+              "x": 50,
+              "y": 23,
+              "width": 9,
+              "height": 9,
+              "offsetX": -1,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                39,
+                -1,
+                84,
+                -1,
+                70,
+                -1
+              ]
+            },
+            {
+              "index": 66,
+              "x": 90,
+              "y": 32,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 67,
+              "x": 0,
+              "y": 24,
+              "width": 9,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 68,
+              "x": 85,
+              "y": 12,
+              "width": 9,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 69,
+              "x": 63,
+              "y": 33,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 70,
+              "x": 81,
+              "y": 33,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 7,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 71,
+              "x": 30,
+              "y": 23,
+              "width": 9,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 72,
+              "x": 40,
+              "y": 23,
+              "width": 9,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 73,
+              "x": 56,
+              "y": 43,
+              "width": 5,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 5,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 74,
+              "x": 49,
+              "y": 43,
+              "width": 6,
+              "height": 9,
+              "offsetX": -1,
+              "offsetY": 3,
+              "advance": 5,
+              "channel": 15,
+              "kerning": [
+                45,
+                -1,
+                76,
+                1
+              ]
+            },
+            {
+              "index": 75,
+              "x": 36,
+              "y": 33,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 76,
+              "x": 17,
+              "y": 44,
+              "width": 7,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 7,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 77,
+              "x": 74,
+              "y": 13,
+              "width": 10,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 10,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 78,
+              "x": 105,
+              "y": 11,
+              "width": 9,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 79,
+              "x": 63,
+              "y": 13,
+              "width": 10,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 10,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 80,
+              "x": 54,
+              "y": 33,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 81,
+              "x": 75,
+              "y": 0,
+              "width": 10,
+              "height": 11,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 10,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 82,
+              "x": 20,
+              "y": 24,
+              "width": 9,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 83,
+              "x": 72,
+              "y": 33,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 84,
+              "x": 10,
+              "y": 24,
+              "width": 9,
+              "height": 9,
+              "offsetX": -1,
+              "offsetY": 3,
+              "advance": 7,
+              "channel": 15,
+              "kerning": [
+                45,
+                -1,
+                101,
+                -1,
+                65,
+                -1,
+                76,
+                -1
+              ]
+            },
+            {
+              "index": 85,
+              "x": 60,
+              "y": 23,
+              "width": 9,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 9,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 86,
+              "x": 27,
+              "y": 34,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                76,
+                -1
+              ]
+            },
+            {
+              "index": 87,
+              "x": 38,
+              "y": 13,
+              "width": 13,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 13,
+              "channel": 15,
+              "kerning": [
+                76,
+                -1
+              ]
+            },
+            {
+              "index": 88,
+              "x": 117,
+              "y": 31,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 89,
+              "x": 115,
+              "y": 11,
+              "width": 9,
+              "height": 9,
+              "offsetX": -1,
+              "offsetY": 3,
+              "advance": 7,
+              "channel": 15,
+              "kerning": [
+                45,
+                -1,
+                76,
+                -1
+              ]
+            },
+            {
+              "index": 90,
+              "x": 70,
+              "y": 23,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 91,
+              "x": 66,
+              "y": 0,
+              "width": 4,
+              "height": 12,
+              "offsetX": 1,
+              "offsetY": 2,
+              "advance": 5,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 92,
+              "x": 35,
+              "y": 0,
+              "width": 6,
+              "height": 12,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 5,
+              "channel": 15,
+              "kerning": [
+                102,
+                1
+              ]
+            },
+            {
+              "index": 93,
+              "x": 60,
+              "y": 0,
+              "width": 5,
+              "height": 12,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 5,
+              "channel": 15,
+              "kerning": [
+                102,
+                1
+              ]
+            },
+            {
+              "index": 94,
+              "x": 95,
+              "y": 50,
+              "width": 8,
+              "height": 4,
+              "offsetX": 1,
+              "offsetY": 3,
+              "advance": 10,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 95,
+              "x": 67,
+              "y": 61,
+              "width": 10,
+              "height": 1,
+              "offsetX": -1,
+              "offsetY": 13,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 96,
+              "x": 53,
+              "y": 61,
+              "width": 4,
+              "height": 2,
+              "offsetX": 1,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 97,
+              "x": 100,
+              "y": 41,
+              "width": 8,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1,
+                87,
+                -1,
+                86,
+                -1,
+                84,
+                -1,
+                70,
+                -1
+              ]
+            },
+            {
+              "index": 98,
+              "x": 0,
+              "y": 13,
+              "width": 8,
+              "height": 10,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 99,
+              "x": 75,
+              "y": 51,
+              "width": 6,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 6,
+              "channel": 15,
+              "kerning": [
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 100,
+              "x": 117,
+              "y": 0,
+              "width": 8,
+              "height": 10,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1
+              ]
+            },
+            {
+              "index": 101,
+              "x": 118,
+              "y": 41,
+              "width": 8,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1,
+                87,
+                -1,
+                86,
+                -1,
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 102,
+              "x": 9,
+              "y": 13,
+              "width": 6,
+              "height": 10,
+              "offsetX": -1,
+              "offsetY": 2,
+              "advance": 4,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 103,
+              "x": 99,
+              "y": 31,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1,
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 104,
+              "x": 108,
+              "y": 0,
+              "width": 8,
+              "height": 10,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 105,
+              "x": 20,
+              "y": 13,
+              "width": 3,
+              "height": 10,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 3,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 106,
+              "x": 42,
+              "y": 0,
+              "width": 5,
+              "height": 12,
+              "offsetX": -1,
+              "offsetY": 2,
+              "advance": 4,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 107,
+              "x": 99,
+              "y": 0,
+              "width": 8,
+              "height": 10,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 7,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 108,
+              "x": 16,
+              "y": 13,
+              "width": 3,
+              "height": 10,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 3,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 109,
+              "x": 66,
+              "y": 43,
+              "width": 11,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 11,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1
+              ]
+            },
+            {
+              "index": 110,
+              "x": 109,
+              "y": 41,
+              "width": 8,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1
+              ]
+            },
+            {
+              "index": 111,
+              "x": 27,
+              "y": 54,
+              "width": 8,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1,
+                87,
+                -1,
+                86,
+                -1,
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 112,
+              "x": 0,
+              "y": 44,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1
+              ]
+            },
+            {
+              "index": 113,
+              "x": 108,
+              "y": 31,
+              "width": 8,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1
+              ]
+            },
+            {
+              "index": 114,
+              "x": 68,
+              "y": 51,
+              "width": 6,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 5,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1,
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 115,
+              "x": 36,
+              "y": 54,
+              "width": 7,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 7,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1,
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 116,
+              "x": 33,
+              "y": 44,
+              "width": 7,
+              "height": 9,
+              "offsetX": -1,
+              "offsetY": 3,
+              "advance": 5,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 117,
+              "x": 9,
+              "y": 54,
+              "width": 8,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1,
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 118,
+              "x": 44,
+              "y": 53,
+              "width": 7,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 7,
+              "channel": 15,
+              "kerning": [
+                89,
+                -1,
+                84,
+                -1,
+                76,
+                -1
+              ]
+            },
+            {
+              "index": 119,
+              "x": 78,
+              "y": 43,
+              "width": 11,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 11,
+              "channel": 15,
+              "kerning": [
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 120,
+              "x": 60,
+              "y": 53,
+              "width": 7,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 7,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 121,
+              "x": 41,
+              "y": 43,
+              "width": 7,
+              "height": 9,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 7,
+              "channel": 15,
+              "kerning": [
+                84,
+                -1,
+                76,
+                -1
+              ]
+            },
+            {
+              "index": 122,
+              "x": 52,
+              "y": 53,
+              "width": 7,
+              "height": 7,
+              "offsetX": 0,
+              "offsetY": 5,
+              "advance": 7,
+              "channel": 15,
+              "kerning": [
+                84,
+                -1
+              ]
+            },
+            {
+              "index": 123,
+              "x": 0,
+              "y": 0,
+              "width": 8,
+              "height": 12,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 124,
+              "x": 71,
+              "y": 0,
+              "width": 3,
+              "height": 12,
+              "offsetX": 1,
+              "offsetY": 2,
+              "advance": 5,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 125,
+              "x": 18,
+              "y": 0,
+              "width": 8,
+              "height": 12,
+              "offsetX": 0,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": [
+                102,
+                1
+              ]
+            },
+            {
+              "index": 126,
+              "x": 116,
+              "y": 49,
+              "width": 10,
+              "height": 3,
+              "offsetX": 0,
+              "offsetY": 7,
+              "advance": 10,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 710,
+              "x": 41,
+              "y": 62,
+              "width": 5,
+              "height": 2,
+              "offsetX": 1,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 711,
+              "x": 47,
+              "y": 61,
+              "width": 5,
+              "height": 2,
+              "offsetX": 1,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 713,
+              "x": 78,
+              "y": 59,
+              "width": 6,
+              "height": 1,
+              "offsetX": 1,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 728,
+              "x": 20,
+              "y": 62,
+              "width": 6,
+              "height": 2,
+              "offsetX": 1,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 729,
+              "x": 125,
+              "y": 11,
+              "width": 2,
+              "height": 1,
+              "offsetX": 3,
+              "offsetY": 3,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 730,
+              "x": 104,
+              "y": 49,
+              "width": 6,
+              "height": 4,
+              "offsetX": 1,
+              "offsetY": 0,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 731,
+              "x": 58,
+              "y": 61,
+              "width": 4,
+              "height": 2,
+              "offsetX": 2,
+              "offsetY": 12,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 732,
+              "x": 27,
+              "y": 62,
+              "width": 6,
+              "height": 2,
+              "offsetX": 1,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            },
+            {
+              "index": 733,
+              "x": 34,
+              "y": 62,
+              "width": 6,
+              "height": 2,
+              "offsetX": 1,
+              "offsetY": 2,
+              "advance": 8,
+              "channel": 15,
+              "kerning": []
+            }
+          ]
+        },
+        "mSpacingX": 0,
+        "mSpacingY": 0,
+        "mAtlas": {
+          "m_FileID": 0,
+          "m_PathID": 616
+        },
+        "mReplacement": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mPixelSize": 1.0,
+        "mSymbols": [],
+        "mDynamicFont": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        },
+        "mDynamicFontSize": 16,
+        "mDynamicFontStyle": 0,
+        "mDynamicFontOffset": 0.0
+      }
+    }
+  },
+  "sprites": {
+    "cross": {
+      "texture": "cross.png",
+      "sha256": "f72f9c65204e4de48699f3fcf0d1d24e5a091660619fe2851c6a8d041ff7f51d",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "cross",
+        "outer": {
+          "x": 1939.0,
+          "y": 1664.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 1939.0,
+          "y": 1664.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "cross2_a": {
+      "texture": "cross2_a.png",
+      "sha256": "36f4f886967d47f2a33f79a7ba5e920824dad62650e6373c56730c0648728142",
+      "width": 9,
+      "height": 15,
+      "sourceSprite": {
+        "name": "cross2_a",
+        "outer": {
+          "x": 1207.0,
+          "y": 1448.0,
+          "width": 9.0,
+          "height": 15.0
+        },
+        "inner": {
+          "x": 1207.0,
+          "y": 1448.0,
+          "width": 9.0,
+          "height": 15.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "cross2": {
+      "texture": "cross2.png",
+      "sha256": "512c41aded79aaff3bc482b07dc6bbe3cdd1742d3db519352efaa6285eb7e93c",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "cross2",
+        "outer": {
+          "x": 1939.0,
+          "y": 1587.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 1939.0,
+          "y": 1587.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "cross_a": {
+      "texture": "cross_a.png",
+      "sha256": "bd92418715d578d60ab476e7c9b0156f88a59f7a918b3211cffd12bdaebc6ddf",
+      "width": 9,
+      "height": 15,
+      "sourceSprite": {
+        "name": "cross_a",
+        "outer": {
+          "x": 1197.0,
+          "y": 1448.0,
+          "width": 9.0,
+          "height": 15.0
+        },
+        "inner": {
+          "x": 1197.0,
+          "y": 1448.0,
+          "width": 9.0,
+          "height": 15.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_skill_sasha": {
+      "texture": "ui_skill_sasha.png",
+      "sha256": "37df9bbd6c2206b5b0ec18efd3feb0c70394bf03af57402dc8e8993770d6e5d6",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_skill_sasha",
+        "outer": {
+          "x": 1972.0,
+          "y": 1664.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 1972.0,
+          "y": 1664.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_skill_petra": {
+      "texture": "ui_skill_petra.png",
+      "sha256": "67517328c75f5437e19825316afa560a746503914a6a7c4256d9908dfca358f2",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_skill_petra",
+        "outer": {
+          "x": 2005.0,
+          "y": 1664.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 2005.0,
+          "y": 1664.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_skill_mikasa": {
+      "texture": "ui_skill_mikasa.png",
+      "sha256": "4bd7a6c70a680ba11234eb2ab9b5ab060f673123fb2275a7d2725839cf0f1905",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_skill_mikasa",
+        "outer": {
+          "x": 2002.0,
+          "y": 1738.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 2002.0,
+          "y": 1738.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_skill_fill_btm": {
+      "texture": "ui_skill_fill_btm.png",
+      "sha256": "aa9b9b39130c0558a0b70bb22bf2d52b520af2a74978c43ba4329cce0f71d90e",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_skill_fill_btm",
+        "outer": {
+          "x": 2009.0,
+          "y": 1815.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 2012.0,
+          "y": 1818.0,
+          "width": 26.0,
+          "height": 26.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_skill_levi": {
+      "texture": "ui_skill_levi.png",
+      "sha256": "04e662067aed630a084b4118c78e57789e74f750ad931876430e19bed3c186ee",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_skill_levi",
+        "outer": {
+          "x": 1939.0,
+          "y": 1620.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 1939.0,
+          "y": 1620.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_blade": {
+      "texture": "ui_blade.png",
+      "sha256": "0b5607fe8986e43e303bbaae321cd723f728780d8d8e1840f30c9c36e20839d9",
+      "width": 7,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_blade",
+        "outer": {
+          "x": 2026.0,
+          "y": 1954.0,
+          "width": 7.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 2026.0,
+          "y": 1954.0,
+          "width": 7.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui2_2": {
+      "texture": "ui2_2.png",
+      "sha256": "2023edfff957ed4013024a1f8c7ad48a3f014092f425084078da1500c5aceb12",
+      "width": 4,
+      "height": 16,
+      "sourceSprite": {
+        "name": "ui2_2",
+        "outer": {
+          "x": 1530.0,
+          "y": 1458.0,
+          "width": 4.0,
+          "height": 16.0
+        },
+        "inner": {
+          "x": 1530.0,
+          "y": 1458.0,
+          "width": 4.0,
+          "height": 16.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_gas_can": {
+      "texture": "ui_gas_can.png",
+      "sha256": "2278319c034e541f1752cdecc09b4a3d25e9371ee5d4d01c83cb8de31ebad4a3",
+      "width": 10,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_gas_can",
+        "outer": {
+          "x": 2026.0,
+          "y": 1987.0,
+          "width": 10.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 2026.0,
+          "y": 1987.0,
+          "width": 10.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_gas_can_fill": {
+      "texture": "ui_gas_can_fill.png",
+      "sha256": "2d0f9255f5123503b671cc9a70c7a4d8f1ab4026e65117d665237d8ec764e807",
+      "width": 8,
+      "height": 28,
+      "sourceSprite": {
+        "name": "ui_gas_can_fill",
+        "outer": {
+          "x": 2037.0,
+          "y": 1991.0,
+          "width": 8.0,
+          "height": 28.0
+        },
+        "inner": {
+          "x": 2037.0,
+          "y": 1991.0,
+          "width": 8.0,
+          "height": 28.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_blade_fill": {
+      "texture": "ui_blade_fill.png",
+      "sha256": "8c6fe3faaf258e6ba3f673ae7b1ca411c6367153a9ccdde38c7eb8d57a7676e7",
+      "width": 5,
+      "height": 24,
+      "sourceSprite": {
+        "name": "ui_blade_fill",
+        "outer": {
+          "x": 1517.0,
+          "y": 1450.0,
+          "width": 5.0,
+          "height": 24.0
+        },
+        "inner": {
+          "x": 1517.0,
+          "y": 1450.0,
+          "width": 5.0,
+          "height": 24.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_skill_armin": {
+      "texture": "ui_skill_armin.png",
+      "sha256": "f59b7fdfecd10e93be829d22c3a14336b05cc558a99b58fa5c62460029b58a2c",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_skill_armin",
+        "outer": {
+          "x": 1939.0,
+          "y": 1697.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 1939.0,
+          "y": 1697.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_skill_eren": {
+      "texture": "ui_skill_eren.png",
+      "sha256": "8da3f28e2ace4d15cc23895402200cc04c31e48307550dceecdae51a92b71ee1",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_skill_eren",
+        "outer": {
+          "x": 2005.0,
+          "y": 1697.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 2005.0,
+          "y": 1697.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_skill_marco": {
+      "texture": "ui_skill_marco.png",
+      "sha256": "60a6af660c7260e9b47cf2dca2e4ce1cc3a2b7a5eccd22788db347523fbb7fdd",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_skill_marco",
+        "outer": {
+          "x": 1972.0,
+          "y": 1697.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 1972.0,
+          "y": 1697.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "ui_skill_jean": {
+      "texture": "ui_skill_jean.png",
+      "sha256": "c7e4ce1f0ec5168adcabe2b12865cd36557d4cec8d072f4d78e9c111805b2b26",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "name": "ui_skill_jean",
+        "outer": {
+          "x": 1772.0,
+          "y": 1452.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "inner": {
+          "x": 1772.0,
+          "y": 1452.0,
+          "width": 32.0,
+          "height": 32.0
+        },
+        "rotated": 0,
+        "paddingLeft": 0.0,
+        "paddingRight": 0.0,
+        "paddingTop": 0.0,
+        "paddingBottom": 0.0
+      }
+    },
+    "CursorSquare": {
+      "texture": "CursorSquare.png",
+      "sha256": "8fb6e7b7102a7fe46a4e7dce1f23249f8f0d920e5c5717b22b13eb418e27f2c2",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+    "CursorTarget": {
+      "texture": "CursorTarget.png",
+      "sha256": "e245de124ad26f3e29feabebf6ff5c054c8b279b1624a61a94aa74090a2fef69",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+    "CursorDefault": {
+      "texture": "CursorDefault.png",
+      "sha256": "0c9f5a1cf1c51492994ea69465304c79d2fb906b742e952d2809494d5d77344b",
+      "width": 32,
+      "height": 32,
+      "sourceSprite": {
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+    "CursorPlus": {
+      "texture": "CursorPlus.png",
+      "sha256": "0e9906321fe4be3a5202fd947848b1f3a31b6e5b87a10e5540f24a2e9281bd5f",
+      "width": 64,
+      "height": 64,
+      "sourceSprite": {
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    },
+    "CursorDot": {
+      "texture": "CursorDot.png",
+      "sha256": "ee609578080bda552c6f44a4ef77f000c0ef5ddd9358202c2c4fb065bcfcb07f",
+      "width": 128,
+      "height": 128,
+      "sourceSprite": {
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "paddingBottom": 0
+      }
+    }
+  },
+  "notes": [
+    "Original UI_IN_GAME GasUI, skill and crosshair atlas pixels and component records.",
+    "Crosshair text uses the original small bitmap font."
+  ]
+}
