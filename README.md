@@ -25,3 +25,7 @@ the GPL by this repository. See [THIRD_PARTY.md](THIRD_PARTY.md).
 
 External dependencies, including the sibling LibAottg repository, retain their
 own licensing terms.
+
+## Slop Warning
+
+This entire repo was mostly AI generated with codex/gpt-6.1-sol.  I expect it would only be useful to other clankers
