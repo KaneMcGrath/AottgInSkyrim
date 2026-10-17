@@ -1,16 +1,24 @@
 # AottgInSkyrim
+[![Watch On Youtube](https://img.youtube.com/vi/Y73BzdrY_CI/0.jpg)](https://www.youtube.com/watch?v=Y73BzdrY_CI)
 
-Skyrim SKSE adapter for the LibAottg native gameplay runtime.
+This mod brings the movement, rope swinging mechanics, and a near-perfect recreation of the entire player character from the Attack On Titan Tribute Game into Skyrim.
+By pressing the default hotkey 'F8' you will transform your Skyrim character into Mikasa(I only exported one character), and you will be able to fly through mountains like never before.
+This was accomplished with a lot of AI assistance, but my experience modding both games was a big part of it.
 
-## Development
+### Features
+- Fully playable AOTTG Hero with accurate recreation of gameplay
+- Damage is directly converted (the faster you are going when striking will affect the damage you do)
+- Customizable controls using SKSE Menu Framework
+- Killinfo and UI are brought over, and optional in the menu
+- Shouts are mostly supported, I specifically added support for whirlwind sprint while flying, for fun
 
-This repository lives at `SkyrimAottg/` in the LibAottg workspace. Building
-currently requires the sibling `../LibAottg/native` source tree and the pinned
-dependencies and PowerShell helpers under `../tools/SkyrimDev/`.
-
-Run `../tools/SkyrimDev/Setup.ps1` to prepare dependencies and
-`../tools/SkyrimDev/Build-Run.ps1` to build and deploy to the dedicated development
-game. The project targets x64 C++23 and CommonLibSSE-NG v11.0.0.
+### Requirements
+- Skyrim 1.7.104 (I attempted to make it compatible with other versions, but I don't have any on hand to test with)
+- [SKSE]([https://www.nexusmods.com/skyrimspecialedition/mods/30379](https://skse.silverlock.org/))
+- [Address Library](https://www.nexusmods.com/skyrimspecialedition/mods/32444)
+- [SKSE Menu Framework](https://www.nexusmods.com/skyrimspecialedition/mods/120352)
+- [SSE Display Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/34705) (Highly recommended for smooth gameplay)
+- [SSE Engine Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/17230) (Highly recommended as this mod pushes skyrim to its limits)
 
 ## License
 
@@ -27,5 +35,4 @@ External dependencies, including the sibling LibAottg repository, retain their
 own licensing terms.
 
 ## Slop Warning
-
 This entire repo was mostly AI generated with codex/gpt-6.1-sol.  I expect it would only be useful to other clankers
